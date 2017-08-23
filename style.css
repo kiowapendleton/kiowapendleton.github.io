@@ -132,17 +132,17 @@ h1 {
 
 .aboutImage {
 	display: flex;
-	height: 370px;
-	width: 630px;
-	margin-top: 40%;
-	margin-left: 65%;
+	height: 350px;
+	width: 500px;
+	margin: 35%;
+	margin-left: 70%;
 	position: relative;
 	background-size: cover;
 }
 
 .aboutImage>h1 {
-	top: 15%;
-	left: -3%;
+	top: 35%;
+	left: 6%;
 	color: black;
 	font: 55px 'Montserrat';
 	font-weight: 500;
@@ -167,23 +167,20 @@ h1 {
 	letter-spacing: 1px;
 	line-height: 25px;
 	position: absolute;
-	top: 105%;
-	right: 56%;
+	right: 50%;
 	left: 15%;
-	padding-top: 80px;
-	padding-bottom: 150px;
+	padding-bottom: 40%;
 }
 
 .contact {
 	font: italic 13px 'Georgia', 'Lora', serif;
+	display: block;
 	letter-spacing: 2px;
 	position: absolute;
-	bottom: 50%;
-	top: 105%;
-	right: 10%;
-	left: 58%;
-	padding-top: 80px;
-	line-height: 25px;
+	line-height: 20px;
+	position: absolute;
+	right: 50%;
+	left: 60%;
 }
 
 
