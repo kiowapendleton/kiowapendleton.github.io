@@ -99,14 +99,14 @@ h1 {
 
 /*about page*/
 
-.navbarlogo {
+.navbarhome {
 	position: fixed;
 	top: 0;
 	width: 50%;
 	z-index: 1;
 }
 
-.navbarlogo a {
+.navbarhome a {
 	float: left;
 	display: inline-block;
 	color: black;
@@ -119,6 +119,7 @@ h1 {
 	position: fixed;
 	top: 0;
 	width: 95%;
+	z-index: 1;
 }
 
 .navbarwork a {
@@ -131,11 +132,9 @@ h1 {
 }
 
 .aboutImage {
-	display: flex;
-	height: 450px;
-	width: 600px;
-	margin: 35%;
-	margin-left: 70%;
+	height: 550px;
+	width: 700px;
+	margin: 30%;
 	position: relative;
 	background-size: cover;
 }
