@@ -8,7 +8,7 @@ html {
 	box-sizing: border-box;
 	display: -webkit-flex;
 	display: flex;
-	margin-bottom: 50%;
+	margin-bottom: 15%;
 }
 
 a {
@@ -152,7 +152,7 @@ h1 {
 	letter-spacing: 1px;
 	line-height: 25px;
 	position: absolute;
-	right: 50%;
+	padding-right: 50%; 
 	left: 15%;
 }
 
