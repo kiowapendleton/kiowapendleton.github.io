@@ -11,17 +11,6 @@ html {
 	margin-bottom: 50%;
 }
 
-.page {
-	max-width: 100%;
-	padding-left: 100%;
-	padding-right: 100%;
-	padding-bottom: 70%;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 a {
 	text-decoration: none;
 	display: inline-block;
@@ -30,7 +19,6 @@ a {
 	transition: 0.5s ease;
 	height: 20px;
 	text-align: center;
-	z-index: 1;
 }
 
 a:link {
@@ -68,8 +56,9 @@ h1 {
 	text-align: center;
 	color: black;
 	white-space: nowrap;
-	position: fixed;
+	position: absolute;
 	letter-spacing: 5.2px;
+	padding-top: 35px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -83,7 +72,6 @@ h1 {
 	text-align: center;
 	width: 100%;
 	color: black;
-	z-index: 1;
 }
 
 .work {
@@ -93,55 +81,53 @@ h1 {
 	text-align: center;
 	width: 100%;
 	color: black;
-	z-index: 1;
 }
 
 
 /*about page*/
 
 .navbarhome {
-	position: fixed;
 	top: 0;
-	width: 50%;
+	width: 10%;
+	position: fixed;
 	z-index: 1;
 }
 
 .navbarhome a {
 	float: left;
-	display: inline-block;
 	color: black;
-	margin: 90px 80px;
+	margin: 90px 60px;
 	font: 15px 'Montserrat';
-	text-align: center;
+	text-align: left;
 }
 
 .navbarwork {
-	position: fixed;
 	top: 0;
-	width: 95%;
-	z-index: 1;
+	width: 100%;
+	position: fixed;
 }
 
 .navbarwork a {
 	float: right;
-	display: inline-block;
 	margin: 90px 80px;
 	color: black;
 	font: 15px 'Montserrat';
-	text-align: center;
+	text-align: right;
 }
 
 .aboutImage {
-	height: 550px;
-	width: 700px;
-	margin: 30%;
-	position: relative;
+	background-image: url(eduard-militaru-189982%20copy.jpg);
 	background-size: cover;
+	height: 460px;
+	width: 600px;
+	margin-left: 65%;
+	margin-top: 15%;
+	margin-bottom: 25%;
 }
 
 .aboutImage>h1 {
 	top: 35%;
-	left: 6%;
+	left: 35%;
 	color: black;
 	font: 55px 'Montserrat';
 	font-weight: 500;
@@ -168,7 +154,6 @@ h1 {
 	position: absolute;
 	right: 50%;
 	left: 15%;
-	padding-bottom: 40%;
 }
 
 .contact {
@@ -177,19 +162,11 @@ h1 {
 	letter-spacing: 2px;
 	position: absolute;
 	line-height: 20px;
-	position: absolute;
-	right: 50%;
-	left: 60%;
+	right: 15%;
 }
 
 
 /*coming soon page*/
-
-.workPage {
-	background-image: url();
-	background-repeat: repeat;
-	background-size: 1000px 1000px;
-}
 
 .bold {
 	font-weight: bolder;
