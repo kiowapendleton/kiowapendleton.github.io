@@ -6,11 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>filter | home</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/imagehover.min.css">
 </head>
 
 <body>
 	<div id="Home" class="tabcontent">
-		<img class="logo" src="img/FilterLogoBlack.png">
+		<figure class="imghvr-shutter-out-diag-2">
+			<img class='home_image' src="img/FilterLogoBlack.png">
+			<figcaption>
+				Skateshop located in Albuquerque NM
+			</figcaption>
+		</figure>
 	</div>
 
 	<div id="Shop" class="tabcontent">
@@ -29,11 +35,11 @@
 	</div>
 
 	<button class="tablink" onclick="openTab('Home', this, '#ece8ed')" id="defaultOpen">HOME</button>
-	
+
 	<button class="tablink" onclick="openTab('Shop', this, '#ece8ed')">SHOP</button>
-	
+
 	<button class="tablink" onclick="openTab('Art', this, '#ece8ed')">ART</button>
-	
+
 	<button class="tablink" onclick="openTab('Contact', this, '#ece8ed')">CONTACT</button>
 
 	<script src="js/fart.js"></script>

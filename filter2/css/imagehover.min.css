@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+[class*=" imghvr-"],
+[class^=imghvr-] {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	max-width: auto;
+	background-color: white;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
+[class*=" imghvr-"]>img,
+[class^=imghvr-]>img {
+	max-width: 100%
+}
+
+[class*=" imghvr-"] figcaption,
+[class^=imghvr-] figcaption {
+	background-color: white;
+	padding: 30px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: black;
+}
+
+[class*=" imghvr-"] figcaption h1,
+[class*=" imghvr-"] figcaption h2,
+[class*=" imghvr-"] figcaption h3,
+[class*=" imghvr-"] figcaption h4,
+[class*=" imghvr-"] figcaption h5,
+[class*=" imghvr-"] figcaption h6,
+[class^=imghvr-] figcaption h1,
+[class^=imghvr-] figcaption h2,
+[class^=imghvr-] figcaption h3,
+[class^=imghvr-] figcaption h4,
+[class^=imghvr-] figcaption h5,
+[class^=imghvr-] figcaption h6 {
+	color: black;
+}
+
+[class*=" imghvr-"] a,
+[class^=imghvr-] a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1
+}
+
+[class*=" imghvr-"],
+[class*=" imghvr-"] *,
+[class*=" imghvr-"]:after,
+[class*=" imghvr-"] :after,
+[class*=" imghvr-"]:before,
+[class*=" imghvr-"] :before,
+[class^=imghvr-],
+[class^=imghvr-] *,
+[class^=imghvr-]:after,
+[class^=imghvr-] :after,
+[class^=imghvr-]:before,
+[class^=imghvr-] :before {
+	box-sizing: border-box;
+	-webkit-transition: all 0.65s ease;
+	-moz-transition: all 0.65s ease;
+	transition: all 0.65s ease
+}
+
+[class*=" imghvr-shutter-out-"]:before,
+[class^=imghvr-shutter-out-]:before {
+	background: white;
+	position: absolute;
+	content: "";
+	-webkit-transition-delay: 0.55s;
+	-moz-transition-delay: 0.55s;
+	transition-delay: 0.55s
+}
+
+[class*=" imghvr-shutter-out-"] figcaption,
+[class^=imghvr-shutter-out-] figcaption {
+	opacity: 0;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s
+}
+
+[class*=" imghvr-shutter-out-"]:hover:before,
+[class^=imghvr-shutter-out-]:hover:before {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s
+}
+
+[class*=" imghvr-shutter-out-"]:hover figcaption,
+[class^=imghvr-shutter-out-]:hover figcaption {
+	opacity: 1;
+	-webkit-transition-delay: 0.205s;
+	-moz-transition-delay: 0.205s;
+	transition-delay: 0.205s;
+}
+
+.imghvr-shutter-out-diag-2:before {
+	top: 50%;
+	bottom: 50%;
+	left: -35%;
+	right: -35%;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+
+.imghvr-shutter-out-diag-2:hover:before {
+	top: -35%;
+	bottom: -35%
+}
+
+.imghvr-shutter-in-out-diag-2:after,
+.imghvr-shutter-in-out-diag-2:before {
+	width: 200%;
+	height: 200%;
+	-webkit-transition: all 0.55s ease;
+	-moz-transition: all 0.55s ease;
+	transition: all 0.55s ease;
+	opacity: 0.75
+}
+
+.imghvr-shutter-in-out-diag-2:after {
+	-webkit-transform: skew(45deg) translateX(-100%);
+	-moz-transform: skew(45deg) translateX(-100%);
+	-ms-transform: skew(45deg) translateX(-100%);
+	-o-transform: skew(45deg) translateX(-100%);
+	transform: skew(45deg) translateX(-100%)
+}
+
+.imghvr-shutter-in-out-diag-2:before {
+	-webkit-transform: skew(45deg) translateX(100%);
+	-moz-transform: skew(45deg) translateX(100%);
+	-ms-transform: skew(45deg) translateX(100%);
+	-o-transform: skew(45deg) translateX(100%);
+	transform: skew(45deg) translateX(100%)
+}
+
+.imghvr-shutter-in-out-diag-2:hover:after,
+.imghvr-shutter-in-out-diag-2:hover:before {
+	-webkit-transform: skew(45deg) translateX(0%);
+	-moz-transform: skew(45deg) translateX(0%);
+	-ms-transform: skew(45deg) translateX(0%);
+	-o-transform: skew(45deg) translateX(0%);
+	transform: skew(45deg) translateX(0%)
+}
