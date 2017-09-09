@@ -1,0 +1,57 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.tablink {
+	background-color: #ffffff;
+	color: black;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+
+.tablink:hover {
+	background-color: #ffffff;
+}
+
+
+/* Style the tab content */
+
+h3 {
+	padding: 1%;
+}
+
+p {
+	padding: 17.5%;
+}
+
+.logo {
+	max-height: 400px;
+	padding: 6%;
+}
+
+.tabcontent {
+	color: black;
+	display: none;
+	text-align: center;
+}
+
+#Home {
+	background-color: white;
+}
+
+#Shop {
+	background-color: #f6f995;
+}
+
+#Art {
+	background-color: #95f9ea;
+}
+
+#Contact {
+	background-color: #f99595;
+}
