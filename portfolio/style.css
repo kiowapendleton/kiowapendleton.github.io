@@ -1,0 +1,173 @@
+body,
+html {
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 15%;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 0px solid transparent;
+	width: 100px;
+	transition: 0.5s ease;
+	height: 20px;
+	text-align: center;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	border-bottom: 6px solid rgba(4, 53, 0, 0.1);
+	letter-spacing: 5px;
+}
+
+
+/* home + work page */
+
+h1 {
+	color: black;
+	font: 55px 'Montserrat';
+	font-weight: 500;
+	letter-spacing: 10.5px;
+	text-shadow: 3px 3px 7px #FBD8CC;
+	color: black;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.who {
+	font: 30px 'Montserrat', sans-serif;
+	text-align: center;
+	color: black;
+	white-space: nowrap;
+	position: absolute;
+	letter-spacing: 5.2px;
+	padding-top: 55px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+.about {
+	position: fixed;
+	top: 25px;
+	font: 15px 'Montserrat';
+	text-align: center;
+	width: 100%;
+	color: black;
+}
+
+.work {
+	position: fixed;
+	bottom: 25px;
+	font: 15px 'Montserrat';
+	text-align: center;
+	width: 100%;
+	color: black;
+}
+
+
+/*about page*/
+
+.navbarhome {
+	top: 0;
+	width: 10%;
+	position: fixed;
+	z-index: 1;
+}
+
+.navbarhome a {
+	float: left;
+	color: black;
+	margin: 90px 60px;
+	font: 15px 'Montserrat';
+	text-align: left;
+}
+
+.navbarwork {
+	top: 0;
+	width: 100%;
+	position: fixed;
+}
+
+.navbarwork a {
+	float: right;
+	margin: 90px 80px;
+	color: black;
+	font: 15px 'Montserrat';
+	text-align: right;
+}
+
+.aboutImage {
+	background-image: url(eduard-militaru-189982%20copy.jpg);
+	background-size: cover;
+	height: 460px;
+	width: 600px;
+	margin-left: 65%;
+	margin-top: 15%;
+	margin-bottom: 25%;
+}
+
+.aboutImage>h1 {
+	top: 35%;
+	left: 35%;
+	color: black;
+	font: 55px 'Montserrat';
+	font-weight: 500;
+	letter-spacing: 10px;
+	text-shadow: 3px 3px 7px #FBD8CC;
+}
+
+.aboutImage>h1:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	padding-top: 3px;
+	border-bottom: 6px solid black;
+	-webkit-box-shadow: 0px 1px 1px #de1dde;
+	-moz-box-shadow: 0px 1px 1px #de1dde;
+	box-shadow: 3px 3px 7px #FBD8CC;
+}
+
+.aboutDescription {
+	font: italic 13px 'Georgia', 'Lora', serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+	position: absolute;
+	padding-right: 50%;
+	padding-left: 15%;
+}
+
+.contact {
+	font: italic 13px 'Georgia', 'Lora', serif;
+	display: block;
+	letter-spacing: 2px;
+	position: absolute;
+	line-height: 20px;
+	right: 15%;
+}
+
+
+/*coming soon page*/
+
+.bold {
+	font-weight: bolder;
+}
